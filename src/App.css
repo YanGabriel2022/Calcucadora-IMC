@@ -1,0 +1,49 @@
+body{
+font-size: 18px;
+margin: 10px;
+padding: 10px;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(to right, rgb(0, 255, 234), blue)  ;
+flex-direction: column;
+
+}
+label {
+font-size: 30px;  
+margin-bottom: 50px;
+
+}
+input{
+  font-size: 25px;
+  text-align-last: center;
+  margin-bottom: 20px; 
+}
+.caixa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+.button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+.button button{
+  border-radius: 4px;
+  background-color: rgb(235, 165, 16);
+font-size: 20px;}
+.p {
+  font-size: 50px;
+  align-items: center;
+}
+.resultado{
+  font-size: 30px;
+  text-align: center;
+  align-content: center;
+}
